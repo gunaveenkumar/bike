@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW BIKE </title>
+    <link rel="stylesheet" href="/bike/style.css">
+</head>
+<body>
+    <div class="main" id="back">
+        <nav>
+            <img src="/bike/image/logo.png"  class="logo">
+            <a href="/email/index.html" target="-main"> Test Drive</a>
+        </nav>
+        <h2>The BMW</h2>
+        <h1> G 310 R</h1>
+        <P>BMW Motorrad has hiked the prices of the BS6 G 310 R and the G 310 GS by Rs 10,000.No updates have been introduced to justify the hike.
+Despite the hike.</P>
+<h3> choose ur color</h3>
+<div class="choose">
+    <div id="red"></div>
+    <div id="blue"></div>
+    <div id="black"></div>
+</div>
+
+
+    </div>
+    <script>
+        var redbt=document.getElementById("red");
+        var bluebt=document.getElementById("blue");
+        var blackbt=document.getElementById("black");
+        var back=document.getElementById("back");
+
+        redbt.onclick=function()
+        {
+            back.style.backgroundImage = "url(/bike/image/BMW1.png)"
+        }
+        bluebt.onclick=function()
+        {
+            back.style.backgroundImage = "url(/bike/image/BMW2.png)"
+        }
+        blackbt.onclick=function()
+        {
+            back.style.backgroundImage = "url(/bike/image/BMW3.png)"
+        }
+    </script>
+    
+</body>
+</html>
